@@ -16,3 +16,5 @@ Finding of the optimal linear order for N elements has (N!)/2 complexity (factor
 To minimize a number of matrices to analyze, Python_UniOrder script uses an initial frame work order of elements and tries to insert all other elements one by one into the frame map calculating 'delta' for each iteration. New map with lowest delta is selected after each iteration. Run time using this approach does not exceed N x N x N time.
 
 If initial frame work order is not available, Python_UniOrder can check ALL POSSIBLE COMBINATIONS of orders for up to 10 chosen elements. Then it adds items one by one from the 'markers to map list'. In this case run time for the script is (N!)/2 + (M x M x M) where N is a number of frame work markers, M is a number of all markers to map. 
+
+Note: UniOrder was derived from Python_MadMapper_V248_XDELTA_119.py script (see atgc-map project)
