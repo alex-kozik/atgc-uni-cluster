@@ -1,0 +1,12 @@
+#labels Featured,Phase-Design
+#UniCluster
+
+= Introduction =
+
+Python scripts to generate distance matrix file for a set of items with numerical data and infer optimal order of elements (items) based on Minimum Entropy Approach.
+
+
+= Details =
+
+   * UniCluster - script to generate pairwise distance matrix
+   * UniOrder - script to find an optimal order
